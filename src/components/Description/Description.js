@@ -16,7 +16,7 @@ export default function Description() {
       <div className="description">
         <Link to="/" className="home"> home</Link>
         <h1>{trailler.title}</h1>
-        <Link to='https://www.youtube.com/watch?v=SlXuWH8clMU'>{trailler.poster}</Link>
+        <a href={trailler.bandeAnnonce}> <img src={trailler.poster}></img></a>
           
         
       </div>
